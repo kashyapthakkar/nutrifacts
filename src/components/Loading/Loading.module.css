@@ -1,0 +1,157 @@
+.container {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 15em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .bar1, .bar2, .bar3, .bar4, .bar5, .bar6, .bar7, .bar8, .bar9, .bar10 {
+    width: 10px;
+    height: 2px;
+    margin-right: 4px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+  
+  .progress {
+    width: 172px;
+    height: 5px;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: relative;
+    top: 10px;
+    animation-name: Progress;
+    animation-duration: 800ms;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0S;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes Progress {
+    0% {
+      width: 0px;
+    }
+    100% {
+      width: 172px;
+    }
+  }
+  .bar1 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.03s;
+  }
+  
+  .bar2 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.06s;
+  }
+  
+  .bar3 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.09s;
+  }
+  
+  .bar4 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.12s;
+  }
+  
+  .bar5 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.15s;
+  }
+  
+  .bar6 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.18s;
+  }
+  
+  .bar7 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.21s;
+  }
+  
+  .bar8 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.24s;
+  }
+  
+  .bar9 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.27s;
+  }
+  
+  .bar10 {
+    animation-name: Bar;
+    animation-duration: 800ms;
+    animation-timing-function: cubic- bezier(0.54, -0.01, 0.42, 0.99);
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: both;
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes Bar {
+    0% {
+      background-color: rgba(255, 0, 0, 0.5);
+      transform: scaleY(0.5);
+    }
+    100% {
+      transform: scaleY(10);
+    }
+  }
+  h3{
+      text-align: center;
+  }

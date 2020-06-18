@@ -1,0 +1,37 @@
+.intro{
+    text-align: center;
+}
+.button{
+    max-width: 100%;
+    width: 100%;
+    font-size: medium !important;
+    margin: 10px 0 !important;
+}
+a{
+    text-decoration: none;
+}
+.subheader, .subheader2, .subheader3{
+    font-size: x-large !important;
+    text-align: center;
+    background: rgb(132, 0, 255) !important;
+    color: #fff !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    letter-spacing: 0.02857em !important;
+    text-transform: uppercase !important;
+    position: relative !important;
+  
+}
+.subheader2{
+    background: rgb(0, 255, 0) !important;
+}
+.subheader3{
+    background: rgb(255, 0, 0) !important;
+}
+.root{
+    padding: 0 !important;
+    margin: 20px !important;border-radius: 10px;
+    background-color: rgba(255, 236, 182, 0.5);
+}
+.lists{
+    text-align: center !important;
+}

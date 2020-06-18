@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nutri-facts/static/css/main.0630a7ef.chunk.css",
+    "main.js": "/nutri-facts/static/js/main.0e91f50c.chunk.js",
+    "main.js.map": "/nutri-facts/static/js/main.0e91f50c.chunk.js.map",
+    "runtime-main.js": "/nutri-facts/static/js/runtime-main.3553ccab.js",
+    "runtime-main.js.map": "/nutri-facts/static/js/runtime-main.3553ccab.js.map",
+    "static/js/2.15820348.chunk.js": "/nutri-facts/static/js/2.15820348.chunk.js",
+    "static/js/2.15820348.chunk.js.map": "/nutri-facts/static/js/2.15820348.chunk.js.map",
+    "index.html": "/nutri-facts/index.html",
+    "precache-manifest.5cdd82301608c7da95979d97253cbfe9.js": "/nutri-facts/precache-manifest.5cdd82301608c7da95979d97253cbfe9.js",
+    "service-worker.js": "/nutri-facts/service-worker.js",
+    "static/css/main.0630a7ef.chunk.css.map": "/nutri-facts/static/css/main.0630a7ef.chunk.css.map",
+    "static/js/2.15820348.chunk.js.LICENSE.txt": "/nutri-facts/static/js/2.15820348.chunk.js.LICENSE.txt",
+    "static/media/App.module.css": "/nutri-facts/static/media/backgrounf.b65abb92.jpg",
+    "static/media/logo.png": "/nutri-facts/static/media/logo.09701bd3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3553ccab.js",
+    "static/js/2.15820348.chunk.js",
+    "static/css/main.0630a7ef.chunk.css",
+    "static/js/main.0e91f50c.chunk.js"
+  ]
+}

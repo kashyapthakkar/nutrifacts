@@ -1,0 +1,27 @@
+body{
+    background-image: url("./images/backgrounf.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.container{
+   margin: 2%;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+
+    .image{
+        width: 100%;
+    }
+}

@@ -1,0 +1,10 @@
+.container{
+    margin: 50px 0;;
+}
+
+.button{
+    max-width: 100%;
+    width: 100%;
+    font-size: medium !important;
+    margin: 10px 0 !important;
+}
